@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace prj_trojuhelnik
 {
@@ -23,22 +22,22 @@ namespace prj_trojuhelnik
                 } while (!checker1 || !checker2 || !checker3); // Jestli uživatel nezadal číslo u jednoho, či více promněnných, do,while cykl bude pravdivý a tak se bude opakovat do té doby, dokud uživatel zadá čísla. (a podmínka bude lživá).
             
 
-            // Zjistí, zda je součet dvou stran vždy větší, než strana třetí. tímto způsobem si ověříme, jestli uživatel zapsal validní velikosti stran trojúhelníku a má smyls v programu pokračovat.
+            // Zjistí, zda je součet dvou stran vždy větší, než strana třetí. tímto způsobem si ověříme, jestli uživatel zapsal validní velikosti stran trojúhelníku a má smysl v programu pokračovat.
             if (strana1 + strana3 > strana2 && strana1 + strana2 > strana3 && strana2 + strana3 > strana1)
                 {
-                    Console.WriteLine("{0}, {1}, {2} jsou stranami trojuhleniku.", strana1, strana2, strana3);
+                    Console.WriteLine("{0}, {1}, {2} jsou stranami trojuhelniku.", strana1, strana2, strana3);
                     // Jestli se všechny délky stran rovnají, je to trojúhelník rovnostranný. jestli (a = b = c)
                     if (strana1 == strana2 && strana2 == strana3)
-                        Console.WriteLine("trojuhlenik je rovnostrany");
+                        Console.WriteLine("trojuhelnik je rovnostranny");
                     // Jestli alespoň dvě zadané strany jsou stejně dlouhé, jedná se o trojúhelník rovnoramenný. jestli (a = b, nebo b = c)
-                    else if (strana1 == strana2 || strana2 == strana3)
-                        Console.WriteLine("trojuhelnik je rovnorameny");
+                    else if (strana1 == strana2 || strana2 == strana3 || strana1 == strana3)
+                        Console.WriteLine("trojuhelnik je rovnoramenny");
                     // Vytvoříme si pole double o velikosti 3 (počínaje od 0 do 3) poté do každého volného místa (od nuly do tří) přidám inviduální stranu.
                     double[] arrDouble = new double[3];
                     arrDouble[0] = strana1*strana1;
                     arrDouble[1] = strana2*strana2;
                     arrDouble[2] = strana3*strana3;
-                    // Použiji metodu Array.Sort, která v mém případě využívá "Insertion Sort " algortimus pro seřazení čísel v poli od nejmenšího po největší. více informací pod kódem v *insertion sort
+                    // Použiji metodu Array.Sort, která v mém případě využívá "Insertion Sort" algortimus pro seřazení čísel v poli od nejmenšího po největší. více informací pod kódem v *insertion sort
                     Array.Sort(arrDouble);
                     
                     // Pythagorova veta = jednoZMensichCisel + jednoZMensichCisel = NejvetsiCislo (vše na druhou). na pozici 2 (na poslední pozici) máme díky array.sort logicky největší číslo a tak ho dosadíme doprava.
@@ -48,7 +47,7 @@ namespace prj_trojuhelnik
                 // pokud uživatel zadá nevalidní velikosti stran a tedy se o trojúhelník nejedná,
                 // program se ukončuje (v tomto případě začíná od začátku, jelikož celý kód běží ve while true cyklu)
                 else
-                    Console.WriteLine("neni to trojuhlenik. program se zavira.");
+                    Console.WriteLine("zadane delky stran nemohou byti delkami stran trojuhelniku..");
             }
         }
     }
