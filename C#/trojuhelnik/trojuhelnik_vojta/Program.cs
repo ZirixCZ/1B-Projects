@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace _1._1
 {
@@ -21,7 +21,46 @@ namespace _1._1
             {
                 Console.WriteLine("Zadaný Trojuhelník je správný");
 
-            }
+                if (strA == strB && strB == strC && strA == strC)
+
+                {
+                    Console.WriteLine("Trojuhelník je Rovnostraný");
+                }
+
+                else if
+
+                {
+
+                    if (strA == strB || strB == strC || strA == strC)
+
+                    {
+
+                        Console.WriteLine("Zadaný Trojuhelník je Rovnoramený");
+                    }
+
+
+                    else
+
+                    {
+
+                        if (Math.Pow(strC, 2) == Math.Pow(strA, 2) + Math.Pow(strB, 2) || Math.Pow(strB, 2) == Math.Pow(strA, 2) + Math.Pow(strC, 2) || Math.Pow(strA, 2) == Math.Pow(strB, 2) + Math.Pow(strC, 2))
+
+                        {
+
+                            Console.WriteLine("Trojuhelník je Pravoúhlý");
+
+                        }
+
+                        else
+
+                        {
+
+                            Console.WriteLine("Trojuhelník je obecný");
+
+                        }
+                    }
+
+                }
 
             else
 
@@ -29,44 +68,7 @@ namespace _1._1
                 Console.WriteLine("Zadaný trojúhelník není správný");
             }
 
-            if (strA == strB && strB == strC && strA == strC)
-
-            {
-                Console.WriteLine("Trojuhelník je Rovnostraný");
-            }
-
-            else
-
-            {
-
-                if (strA == strB || strB == strC || strA == strC)
-
-                {
-
-                    Console.WriteLine("Zadaný Trojuhelník je Rovnoramený");
-                }
-
-
-                else
-
-                {
-
-                    if (Math.Pow(strC, 2) == Math.Pow(strA, 2) + Math.Pow(strB, 2) ||
-                    Math.Pow(strB, 2) == Math.Pow(strA, 2) + Math.Pow(strC, 2) || Math.Pow(strA, 2) == Math.Pow(strB, 2) + Math.Pow(strC, 2))
-
-                    {
-
-                        Console.WriteLine("Trojuhelník je Pravoúhlý");
-
-                    }
-
-                    else
-                    {
-
-                        Console.WriteLine("Trojuhelník je obecný");
-
-                    }
-                }
+            
             }
         }
     }
