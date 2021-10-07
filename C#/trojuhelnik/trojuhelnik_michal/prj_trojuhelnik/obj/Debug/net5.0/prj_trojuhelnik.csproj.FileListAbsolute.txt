@@ -1,0 +1,16 @@
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\bin\Debug\net5.0\prj_trojuhelnik.exe
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\bin\Debug\net5.0\prj_trojuhelnik.deps.json
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\bin\Debug\net5.0\prj_trojuhelnik.runtimeconfig.json
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\bin\Debug\net5.0\prj_trojuhelnik.runtimeconfig.dev.json
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\bin\Debug\net5.0\prj_trojuhelnik.dll
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\bin\Debug\net5.0\ref\prj_trojuhelnik.dll
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\bin\Debug\net5.0\prj_trojuhelnik.pdb
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\prj_trojuhelnik.csproj.AssemblyReference.cache
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\prj_trojuhelnik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\prj_trojuhelnik.AssemblyInfoInputs.cache
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\prj_trojuhelnik.AssemblyInfo.cs
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\prj_trojuhelnik.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\prj_trojuhelnik.dll
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\ref\prj_trojuhelnik.dll
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\prj_trojuhelnik.pdb
+C:\Users\thinkpad\Documents\.PROGRAMMING\C#\prj_trojuhelnik\prj_trojuhelnik\obj\Debug\net5.0\prj_trojuhelnik.genruntimeconfig.cache
